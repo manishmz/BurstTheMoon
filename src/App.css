@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-image: url('assets/starsbg.svg');
 }
 
 .App-logo {
@@ -30,4 +31,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+.block {
+  width: 350px;
+  height: 50vh;
+  content: url('assets/full-moon.png');
+}
+.center-block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+.rocket {
+  content: url('assets/rocket.jpg');
+  width: 60px;
+  height: 15vh;
 }
