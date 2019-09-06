@@ -1,6 +1,8 @@
+body {
+  background-image: url('assets/starsbg.svg');
+}
 .App {
   text-align: center;
-  background-image: url('assets/starsbg.svg');
 }
 
 .App-logo {
@@ -47,4 +49,22 @@
   content: url('assets/rocket.jpg');
   width: 60px;
   height: 15vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .center-block {
+    display: flex;
+    align-items: space-around;
+    height: 100vh;
+  }
+  .block {
+    width: 100px;
+    height: 20vh;
+    content: url('assets/full-moon.png');
+  }
+  .rocket {
+    content: url('assets/rocket.jpg');
+    width: 40px;
+    height: 10vh;
+  }
 }
